@@ -71,3 +71,5 @@ npm run test:unit
 Se este projeto foi útil para você, deixe uma ⭐ no repositório.
 
 💻 Desenvolvido por [Raphaela Monteiro](https://github.com/raphaelamonteiro).
+
+> Laboratório de estudos desenvolvido ao longo da disciplina de Tópicos Especiais em Informática, sob orientação do professor [Emanuel Mineda](https://github.com/mineda).
