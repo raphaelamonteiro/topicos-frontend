@@ -1,54 +1,73 @@
-# .
+<div align="center">
 
-This template should help get you started developing with Vue 3 in Vite.
+# 🌱 Tópicos - Frontend
 
-## Recommended IDE Setup
+</div>
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🌿 Sobre
 
-## Recommended Browser Setup
+Este repositório contém o código do frontend da plataforma acadêmica desenvolvida para a disciplina de **Tópicos Especiais em Informática**.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+O projeto serve como ambiente de experimentação e estudo, permitindo aplicar na prática os conceitos apresentados em aula e documentar sua evolução ao longo do desenvolvimento.
 
-## Type Support for `.vue` Imports in TS
+## 🔧 Tecnologias
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+![Vue](https://img.shields.io/badge/Vue-66BB6A?style=for-the-badge&logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-66BB6A?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-66BB6A?style=for-the-badge&logo=vite&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-66BB6A?style=for-the-badge&logo=axios&logoColor=white)
+![Npm](https://img.shields.io/badge/Npm-66BB6A?style=for-the-badge&logo=npm&logoColor=white)
 
-## Customize configuration
+## 📖 Estudos
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Iniciando com Vue
+> Em construção...
 
-## Project Setup
+### 🧪 Anotações
+> Em construção...
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+* Node.js instalado (versão LTS recomendada)
+* Gerenciador de pacotes `npm`
+
+### Passo a Passo
+
+1. Clone este repositório:
+```sh
+git clone https://github.com/raphaelamonteiro/topicos-frontend.git
+cd topicos-frontend
+```
+
+2. Instale as dependências:
 
 ```sh
 npm install
+
 ```
 
-### Compile and Hot-Reload for Development
+3. Execute o servidor de desenvolvimento:
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+> O projeto estará acessível na porta padrão indicativa no terminal (geralmente `http://localhost:5173`).
+
+## 🛠️ Outros Comandos
 
 ```sh
+# Compila e gera os arquivos de produção
 npm run build
-```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
+# Executa os testes unitários via Vitest
 npm run test:unit
+
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### ⭐ Gostou do projeto?
 
-```sh
-npm run lint
-```
+Se este projeto foi útil para você, deixe uma ⭐ no repositório.
+
+💻 Desenvolvido por [Raphaela Monteiro](https://github.com/raphaelamonteiro).
