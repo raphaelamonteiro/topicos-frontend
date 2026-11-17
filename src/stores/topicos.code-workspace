@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../topicos-backend"
+		},
+		{
+			"path": "../../../vue-topicos20262"
+		},
+		{
+			"path": "../../../springtopicos20262"
+		}
+	],
+	"settings": {}
+}

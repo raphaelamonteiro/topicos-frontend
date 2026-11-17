@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import { cursoStore } from './stores/cursoStore'
+
+const store = cursoStore()
 </script>
 
 <template>
@@ -9,11 +12,13 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="Peixe!" />
+      <p v-if="store.erro" style="color: red">{{ store.erro }}</p>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/curso">Gerenciar Cursos</RouterLink>
+        <RouterLink to="/trabalho">Gerencie Trabalhos</RouterLink>
       </nav>
     </div>
   </header>
