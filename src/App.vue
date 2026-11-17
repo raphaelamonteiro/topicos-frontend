@@ -19,6 +19,7 @@ const store = cursoStore()
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/curso">Gerenciar Cursos</RouterLink>
         <RouterLink to="/trabalho">Gerencie Trabalhos</RouterLink>
+        <RouterLink to="/opcao">Inclua Opções!</RouterLink>
       </nav>
     </div>
   </header>

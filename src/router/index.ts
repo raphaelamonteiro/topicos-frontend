@@ -27,6 +27,11 @@ const router = createRouter({
       name: 'trabalho',
       component: () => import('../views/TrabalhoView.vue'),
     },
+    {
+      path: '/opcao',
+      name: 'opcao',
+      component: () => import('../views/OpcaoView.vue'),
+    }
   ],
 })
 
