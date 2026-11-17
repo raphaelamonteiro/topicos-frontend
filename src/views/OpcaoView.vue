@@ -137,9 +137,11 @@ const filtro = ref({
 
 const calcularAntiguidade = (dataCriacao?: string) => {
   if (!dataCriacao) return '-'
+
   const hoje = new Date()
-  const criacao = new Date(dataCriacao)
   hoje.setHours(0, 0, 0, 0)
+
+  const criacao = new Date(dataCriacao + 'T00:00:00')
   criacao.setHours(0, 0, 0, 0)
 
   const diffTime = Math.abs(hoje.getTime() - criacao.getTime())
